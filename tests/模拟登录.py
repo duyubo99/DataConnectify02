@@ -3,6 +3,9 @@ from selenium.webdriver.common.by import By
 
 from selenium.webdriver.common.action_chains import ActionChains
 import time
+
+from utils.image.SliderRecognizer import SliderRecognizer
+
 """
     url：https://www.tianyancha.com/
     测试登录并滑动获取cookie信息
@@ -33,25 +36,34 @@ time.sleep(2)
 # 找到滑块的位置
 slider = driver.find_element(By.CSS_SELECTOR,'body > div.gt_holder.gt_popup.gt_animate.gt_show > div.gt_popup_wrap > div.gt_popup_box > div.gt_slider > div.gt_slider_knob.gt_show')
 
-driver.find_element(by="xpath", value='/html/body/div[4]/div[2]/div[2]/div[1]/div[2]/div[1]').screenshot("../down/img/003.png")
+image1_path = "../down/img/001.png"
+image2_path = "../down/img/001_yy.png"
+
+driver.find_element(by="xpath", value='/html/body/div[4]/div[2]/div[2]/div[1]/div[2]/div[1]').screenshot(image1_path)
 slider.click()
 time.sleep(4)
 
 # 26块
-driver.find_element(by="xpath", value='/html/body/div[4]/div[2]/div[2]/div[1]/div[2]/div[1]').screenshot("../down/img/003_yy.png")
+driver.find_element(by="xpath", value='/html/body/div[4]/div[2]/div[2]/div[1]/div[2]/div[1]').screenshot(image2_path)
 
-# 滑动注释
-# action = ActionChains(driver)
-# action.click_and_hold(slider).perform()
-# action.move_by_offset(200, 0).perform()
-# action.release().perform()
+
+# 滑块识别，返回游标
+cursor = SliderRecognizer.find_slider_cursor(image1_path, image2_path)
+print(f"cursor:{cursor}")
+
+# 执行滑动
+action = ActionChains(driver)
+action.click_and_hold(slider).perform()
+action.move_by_offset(cursor*10-15, 0).perform()
+time.sleep(2)
+action.release().perform()
+
+
+
+# time.sleep(5)
+# driver.quit()
 
 time.sleep(10)
 driver.quit()
-# action = ActionChains(driver)
-# action.click_and_hold(slider).perform()
-# action.move_by_offset(200, 0).perform()
-# action.release().perform()
-#
-# time.sleep(5)
-# driver.quit()
+
+
