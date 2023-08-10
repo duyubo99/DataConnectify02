@@ -49,7 +49,7 @@ def getDetailPage():
     html_source = driver.page_source
 
     # 将HTML源代码保存到本地文件
-    with open("../down/txt/page.html", "w", encoding="utf-8") as file:
+    with open("../../down/txt/page.html", "w", encoding="utf-8") as file:
         file.write(html_source)
 
     # 使用BeautifulSoup解析HTML

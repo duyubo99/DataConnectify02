@@ -36,8 +36,8 @@ time.sleep(2)
 # 找到滑块的位置
 slider = driver.find_element(By.CSS_SELECTOR,'body > div.gt_holder.gt_popup.gt_animate.gt_show > div.gt_popup_wrap > div.gt_popup_box > div.gt_slider > div.gt_slider_knob.gt_show')
 
-image1_path = "../down/img/001.png"
-image2_path = "../down/img/001_yy.png"
+image1_path = "../../down/img/001.png"
+image2_path = "../../down/img/001_yy.png"
 
 driver.find_element(by="xpath", value='/html/body/div[4]/div[2]/div[2]/div[1]/div[2]/div[1]').screenshot(image1_path)
 slider.click()

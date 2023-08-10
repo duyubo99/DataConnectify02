@@ -64,8 +64,8 @@ def compare_pixels(image1, image2, unit_type, n, m=None):
 
     return similarities, max_drop_diff_cursor1, max_drop_diff_cursor2, max_drop_diff
 
-image1 = Image.open("../down/img/001.png")
-image2 = Image.open("../down/img/001_yy.png")
+image1 = Image.open("../../down/img/001.png")
+image2 = Image.open("../../down/img/001_yy.png")
 unit_type = "Y"
 n = 10
 m = None
