@@ -2,7 +2,7 @@ import scrapy
 
 from selenium import webdriver
 from selenium.webdriver import Chrome
-from  selenium.webdriver.chrome.options import Options    # 使用无头浏览器
+from selenium.webdriver.chrome.options import Options    # 使用无头浏览器
 import scrapy
 
 class TanyanchaSpider(scrapy.Spider):
