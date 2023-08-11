@@ -3,21 +3,27 @@ import logging
 from datetime import datetime
 import os
 
+from utils.constants import Constants
+
 """
     滑块验证-图像色差比对
 """
 class SliderRecognizer:
 
 
+
     # 获取当前时间，并将其格式化为指定的字符串格式
     current_time = datetime.now().strftime('%Y-%m-%d %H')
 
     # 拼接带有时间的日志文件名称
-    log_file = os.path.join("E:\product\pycharm\DataCollectify02", 'logs', f'SliderRecognizer_{current_time}.log')
+    log_file = f'{Constants.PROJECT_LOG_PATH}/SliderRecognizer_{current_time}.log'
 
     # 配置日志记录
-    logging.basicConfig(filename=log_file, level=logging.INFO,encoding='utf-8')
-    print(log_file)
+    logging.basicConfig(filename=log_file, level=logging.INFO, encoding='utf-8')
+    print(f"日志路径：{log_file}")
+    logging.info("==================================")
+
+
 
     @staticmethod
     def find_slider_cursor(image1_path, image2_path):

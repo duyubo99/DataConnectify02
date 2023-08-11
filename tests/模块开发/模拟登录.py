@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 import time
 
-from utils.image.SliderRecognizer import SliderRecognizer
+from utils.image.slider_recognizer import SliderRecognizer
 
 """
     url：https://www.tianyancha.com/
@@ -59,9 +59,6 @@ time.sleep(2)
 action.release().perform()
 
 
-
-# time.sleep(5)
-# driver.quit()
 
 time.sleep(10)
 driver.quit()

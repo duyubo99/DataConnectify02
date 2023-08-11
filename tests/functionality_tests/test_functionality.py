@@ -2,15 +2,17 @@ import unittest
 from PIL import Image
 import os
 
-from utils.image.SliderRecognizer import SliderRecognizer
+from utils.constants import Constants
+from utils.image.slider_recognizer import SliderRecognizer
 
 """
     单元测试
 """
 class TestFunctionality(unittest.TestCase):
+
     def test_compare_pixels(self):
-        image1_path = "E:\product\pycharm\DataCollectify02\down\img\\001.png"
-        image2_path = "E:\product\pycharm\DataCollectify02\down\img\\001_yy.png"
+        image1_path = f"{Constants.PROJECT_PATH}/down/img/001.png"
+        image2_path = f"{Constants.PROJECT_PATH}/down/img/001_yy.png"
         print(image1_path)
         # 用于测试compare_pixels函数的单元测试
         image1 = Image.open(image1_path)
@@ -25,8 +27,8 @@ class TestFunctionality(unittest.TestCase):
 
     def test_find_slider_cursor(self):
         # 用于测试find_slider_cursor函数的单元测试
-        image1_path = "E:\product\pycharm\DataCollectify02\down\img\\001.png"
-        image2_path = "E:\product\pycharm\DataCollectify02\down\img\\001_yy.png"
+        image1_path = f"{Constants.PROJECT_PATH}/down/img/001.png"
+        image2_path = f"{Constants.PROJECT_PATH}/down/img/001_yy.png"
 
         cursor = SliderRecognizer.find_slider_cursor(image1_path, image2_path)
         print(f"cursor:{cursor}")
