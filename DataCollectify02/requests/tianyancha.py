@@ -202,9 +202,3 @@ if __name__ == '__main__':
 
 
     collector.driver.quit()
-
-    # dl = self.driver.find_element(by="xpath", value="//*[@id='J_NavTypeLink']")
-    # if dl.accessible_name != "登录/注册":
-    #     print("登录错误")
-    #     self.driver.quit()
-    #     return
