@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/down" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logs" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.9 (DataConnectify02)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
