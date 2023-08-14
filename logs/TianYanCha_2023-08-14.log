@@ -1,0 +1,93 @@
+2023-08-14 18:40:28,609 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]获取缓存cookie
+2023-08-14 18:40:28,609 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]无缓存cookie，开始模拟登录
+2023-08-14 18:40:45,342 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]滑块破解，游标[cursor]:5
+2023-08-14 18:40:59,986 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]失败，重试1次，最大重试次数：3
+2023-08-14 18:41:15,768 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]滑块破解，游标[cursor]:14
+2023-08-14 18:41:30,416 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]失败，重试2次，最大重试次数：3
+2023-08-14 18:41:46,300 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]滑块破解，游标[cursor]:2
+2023-08-14 18:42:00,914 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]失败，重试3次，最大重试次数：3
+2023-08-14 18:42:16,672 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]滑块破解，游标[cursor]:7
+2023-08-14 18:42:21,281 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]成功，持久化cookie
+2023-08-14 18:42:21,291 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]通过
+2023-08-14 18:42:21,291 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - 开始采集数据，请求地址：https://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E9%A9%AC%E9%87%8C%E5%A5%A5%E6%B3%A2%E7%BD%97%E8%BF%9B%E5%87%BA%E5%8F%A3%E8%B4%B8%E6%98%93%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2023-08-14 18:42:21,291 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - 本次运行结束
+
+2023-08-14 18:42:52,645 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]获取缓存cookie
+2023-08-14 18:42:52,646 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]缓存cookie获取成功
+2023-08-14 18:42:52,647 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]发送请求，伪装cookie信息
+2023-08-14 18:42:57,488 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]验证cookie有效性
+2023-08-14 18:43:02,559 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]通过
+2023-08-14 18:43:02,559 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - 开始采集数据，请求地址：https://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E9%A9%AC%E9%87%8C%E5%A5%A5%E6%B3%A2%E7%BD%97%E8%BF%9B%E5%87%BA%E5%8F%A3%E8%B4%B8%E6%98%93%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2023-08-14 18:43:02,559 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - 本次运行结束
+
+2023-08-14 18:43:57,358 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]获取缓存cookie
+2023-08-14 18:43:57,359 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]缓存cookie获取成功
+2023-08-14 18:43:57,359 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]发送请求，伪装cookie信息
+2023-08-14 18:43:58,960 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]无效的 cookie 域名: .tianyanasdasdsadcha.com
+2023-08-14 18:44:02,349 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]验证cookie有效性
+2023-08-14 18:44:07,440 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]通过
+2023-08-14 18:44:07,440 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - 开始采集数据，请求地址：https://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E9%A9%AC%E9%87%8C%E5%A5%A5%E6%B3%A2%E7%BD%97%E8%BF%9B%E5%87%BA%E5%8F%A3%E8%B4%B8%E6%98%93%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2023-08-14 18:44:07,440 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - 本次运行结束
+
+2023-08-14 18:44:51,567 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]获取缓存cookie
+2023-08-14 18:44:51,568 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]缓存cookie获取成功
+2023-08-14 18:44:51,568 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]发送请求，伪装cookie信息
+2023-08-14 18:46:12,113 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]获取缓存cookie
+2023-08-14 18:46:12,114 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]缓存cookie获取成功
+2023-08-14 18:46:12,114 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]发送请求，伪装cookie信息
+2023-08-14 18:46:13,785 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]无效的 cookie 域名: .tianyanasdasdsadcha.com
+2023-08-14 18:46:13,875 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]无效的 cookie 域名: .tianyancha.aasdcom
+2023-08-14 18:46:17,045 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]验证cookie有效性
+2023-08-14 18:46:22,121 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]验证通过
+2023-08-14 18:46:22,121 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - 开始采集数据，请求地址：https://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E9%A9%AC%E9%87%8C%E5%A5%A5%E6%B3%A2%E7%BD%97%E8%BF%9B%E5%87%BA%E5%8F%A3%E8%B4%B8%E6%98%93%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2023-08-14 18:46:22,121 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - 本次运行结束
+
+2023-08-14 18:47:19,479 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]获取缓存cookie
+2023-08-14 18:47:19,480 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]缓存cookie获取成功
+2023-08-14 18:47:19,480 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]发送请求，伪装cookie信息
+2023-08-14 18:47:21,102 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]无效的 cookie 域名: .tianyanasdasdsadcha.com
+2023-08-14 18:47:21,185 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]无效的 cookie 域名: .tianyancha.aasdcom
+2023-08-14 18:47:24,125 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]验证cookie有效性
+2023-08-14 18:47:29,173 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]验证通过
+2023-08-14 18:47:29,173 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - 开始采集数据，请求地址：https://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E9%A9%AC%E9%87%8C%E5%A5%A5%E6%B3%A2%E7%BD%97%E8%BF%9B%E5%87%BA%E5%8F%A3%E8%B4%B8%E6%98%93%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2023-08-14 18:47:29,173 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - 本次运行结束
+
+2023-08-14 18:48:25,499 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]获取缓存cookie
+2023-08-14 18:48:25,500 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]缓存cookie获取成功
+2023-08-14 18:48:25,500 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]发送请求，伪装cookie信息
+2023-08-14 18:48:28,019 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]无效的 cookie 域名: .tianyanasdasdsadcha.com
+2023-08-14 18:48:28,079 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]无效的 cookie 域名: .tianyancha.aasdcom
+2023-08-14 18:48:31,125 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]验证cookie有效性
+2023-08-14 18:48:41,209 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]验证cookie失效，开始模拟登录...
+2023-08-14 18:48:57,327 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]滑块破解，游标[cursor]:2
+2023-08-14 18:49:12,030 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]失败，重试1次，最大重试次数：3
+2023-08-14 18:49:27,930 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]滑块破解，游标[cursor]:18
+2023-08-14 18:49:32,553 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]成功，持久化cookie
+2023-08-14 18:49:32,563 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]验证通过
+2023-08-14 18:49:32,563 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - 开始采集数据，请求地址：https://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E9%A9%AC%E9%87%8C%E5%A5%A5%E6%B3%A2%E7%BD%97%E8%BF%9B%E5%87%BA%E5%8F%A3%E8%B4%B8%E6%98%93%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2023-08-14 18:49:32,563 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - 本次运行结束
+
+2023-08-14 18:50:34,154 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]获取缓存cookie
+2023-08-14 18:50:34,155 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]缓存cookie获取成功
+2023-08-14 18:50:34,155 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]发送请求，伪装cookie信息
+2023-08-14 18:50:39,654 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]验证cookie有效性
+2023-08-14 18:50:44,728 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]验证通过
+2023-08-14 18:50:44,728 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - 开始采集数据，请求地址：https://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E9%A9%AC%E9%87%8C%E5%A5%A5%E6%B3%A2%E7%BD%97%E8%BF%9B%E5%87%BA%E5%8F%A3%E8%B4%B8%E6%98%93%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2023-08-14 18:50:44,728 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - 本次运行结束
+
+2023-08-14 18:52:36,679 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]获取缓存cookie
+2023-08-14 18:52:36,680 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]缓存cookie获取成功
+2023-08-14 18:52:36,680 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]发送请求，伪装cookie信息
+2023-08-14 18:52:41,574 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]验证cookie有效性
+2023-08-14 18:52:46,652 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]验证通过
+2023-08-14 18:52:46,652 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - 开始采集数据，请求地址：https://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E9%A9%AC%E9%87%8C%E5%A5%A5%E6%B3%A2%E7%BD%97%E8%BF%9B%E5%87%BA%E5%8F%A3%E8%B4%B8%E6%98%93%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2023-08-14 18:52:46,652 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - 本次运行结束
+
+2023-08-14 18:54:20,145 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]获取缓存cookie
+2023-08-14 18:54:20,145 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]缓存cookie获取成功
+2023-08-14 18:54:20,145 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]发送请求，伪装cookie信息
+2023-08-14 18:54:25,065 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]验证cookie有效性
+2023-08-14 18:54:30,156 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - [登录]验证通过
+2023-08-14 18:54:30,156 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - 开始采集数据，请求地址：https://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E9%A9%AC%E9%87%8C%E5%A5%A5%E6%B3%A2%E7%BD%97%E8%BF%9B%E5%87%BA%E5%8F%A3%E8%B4%B8%E6%98%93%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2023-08-14 18:54:30,156 - I:/project/python/DataConnectify02/logs/TianYanCha_2023-08-14.log - INFO - 本次运行结束
+

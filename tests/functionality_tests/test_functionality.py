@@ -4,6 +4,7 @@ import os
 
 from utils.constants import Constants
 from utils.image.slider_recognizer import SliderRecognizer
+from utils.my_logger import MyLogger
 
 """
     单元测试
@@ -37,6 +38,12 @@ class TestFunctionality(unittest.TestCase):
         # 对其他功能模块进行单元测试
         # ...
         pass
+    def test_log(self):
+        logger1 = MyLogger("log_file1.log")
+        logger2 = MyLogger("log_file2.log")
+
+        logger1.info("This is a message to log_file1.log")
+        logger2.info("This is a message to log_file2.log")
 
 
 if __name__ == "__main__":

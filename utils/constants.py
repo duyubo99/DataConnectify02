@@ -12,6 +12,8 @@ class Constants:
     PROJECT_PATH = os.path.normpath(os.path.join(os.path.dirname(__file__), "..")).replace("\\", "/")
     # 输出日志路径
     PROJECT_LOG_PATH = PROJECT_PATH+"/logs"
+    # 下载图片路径
+    PROJECT_DOWN_IMG_PATH = PROJECT_PATH + "/down/img"
 
 
 
