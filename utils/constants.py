@@ -14,6 +14,8 @@ class Constants:
     PROJECT_LOG_PATH = PROJECT_PATH+"/logs"
     # 下载图片路径
     PROJECT_DOWN_IMG_PATH = PROJECT_PATH + "/down/img"
+    # 配置文件路径
+    PROJECT_CONFIG_PATH = PROJECT_PATH+"/config"
 
 
 
